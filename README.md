@@ -130,7 +130,7 @@ The main objectives of this project were to:
 
 # Preparing the Data
 
-## Step 1: Load the Data into SQL Server
+## Load the Data into SQL Server
 
 I created a database and imported the CSV file into a table called `bank_loan_data`.
 
@@ -783,9 +783,7 @@ Loan grade
 
 Loan purpose
 
-Dashboard Screenshot:
-
-Add screenshot here
+![Summary Dashboard](./Summary.png)
 
 **Page 2: Overview and Borrowers**
 
@@ -807,9 +805,7 @@ Verification status
 
 Loan characteristics
 
-Dashboard Screenshot:
-
-Add screenshot here
+![Overview Dashboard](./Overview.png)
 
 **Page 3: Loan Quality and Risk** 
 
@@ -831,9 +827,7 @@ DTI
 
 Regional risk
 
-Dashboard Screenshot:
-
-Add screenshot here
+![Loan Analysis Dashboard](./Loan_Quality.png)
 
 **Page 4: Insights and Recommendations**
 
@@ -853,9 +847,7 @@ Opportunities for better risk management
 
 Recommended actions for the bank
 
-Dashboard Screenshot:
-
-Add screenshot here
+![Insights Dashboard](./Insights.png)
 
 # Key Findings
    
@@ -992,12 +984,12 @@ The main opportunity is therefore not simply to increase lending, but to grow wh
 # Project Files
 
 File	Description
-financial_loan.csv	Original loan dataset
 
-Bank_Loan_Analysis.sql	SQL queries used for data preparation and analysis
+**Raw Dataset:** [View CSV Data](financial_loan.csv)
 
-Bank_Loan_Analysis.pbix	Interactive Power BI dashboard
+**Power BI Dashboard:** [Download/View Power BI File](Bank%20Loan%20Analysis.pbix)
 
+**SQL Script:** [View SQL Queries](SQLQuery1.sql)
 
 # Tools Used
 
